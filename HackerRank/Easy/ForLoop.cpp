@@ -18,11 +18,11 @@ if(i <= 9)
 {
     cout<<ar[i-1]<<endl;
 }
-    if(i > 9 && i%2 == 0) {
+    else if(i%2 == 0) {
         cout << "even" << endl;
     } 
     
-    if(i > 9 && i%2 != 0)
+    else
     {
         cout << "odd" << endl; 
     }
