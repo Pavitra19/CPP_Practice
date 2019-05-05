@@ -10,8 +10,7 @@ int main()
     cin >> n;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
-    // Write Your Code Here
-
+    
 string ar[] = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}; 
     
 cout<<((n <=9)? ar[n-1]:"Greater than 9")<<endl;
