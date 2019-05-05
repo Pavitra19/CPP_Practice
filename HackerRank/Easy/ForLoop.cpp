@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-    // Complete the code.
 
+    
 int n;
 int b;
 int i;
