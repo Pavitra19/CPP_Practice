@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-	// Complete the program
   
   string a, b;
   cin >> a>> b;
