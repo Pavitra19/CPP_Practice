@@ -7,7 +7,7 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+
     int N, i=0;
     std::cin>> N;
     int *C = new int[N];
