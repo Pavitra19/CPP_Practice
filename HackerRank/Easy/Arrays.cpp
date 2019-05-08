@@ -13,6 +13,6 @@ int main() {
     int *C = new int[N];
     while(std::cin>>C[i++]);
     while(std::cout<<C[--N]<<' ' && N);
-    delete [] C; 
+    delete [] C; //free the memory assigned to C since no longer needed 
     return 0;
 }
